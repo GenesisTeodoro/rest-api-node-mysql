@@ -1,6 +1,6 @@
 module.exports = {
     HOST: "localhost",
-    USER: "root",
-    PASSWORD: "",
+    USER: "root", //User in SQL Server
+    PASSWORD: "", //Your password
     DB: "inventory"
 };
