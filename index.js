@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.json({ title: "Rest API Node JS." });
 });
 
-require("./app/routes/inventory.routes.js")(app);
+require("./app/routes/item.routes.js")(app);
 
 app.listen('3000', () => {
     console.log('Server started on port 3000');
