@@ -28,3 +28,6 @@ CREATE TABLE IF NOT EXISTS `items` (
   amount DECIMAL(50,2) NOT NULL
 );
 ```
+
+## Postman
+Install [Postman](https://www.postman.com/downloads/) to perform CRUD functions and HTTP methods
